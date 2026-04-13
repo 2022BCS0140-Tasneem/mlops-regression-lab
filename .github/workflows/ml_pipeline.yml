@@ -1,4 +1,3 @@
-@"
 name: ML Pipeline
 
 on:
@@ -45,4 +44,3 @@ jobs:
 
       - name: Print message
         run: echo "Run completed by: YourName - YourRegisterNumber"
-"@ | Set-Content .github/workflows/ml_pipeline.yml
