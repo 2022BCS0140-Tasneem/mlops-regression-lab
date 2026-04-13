@@ -25,4 +25,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo "Run completed by: Syed Tasneem Kousar - 2022BCS0140"
+      - name: Print message
+        run: echo Run completed by Syed Tasneem Kousar - 2022BCS0140
