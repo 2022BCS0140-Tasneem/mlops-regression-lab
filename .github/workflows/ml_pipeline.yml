@@ -32,6 +32,7 @@ jobs:
             model.pkl
             metrics.json
 
+
   report:
     needs: train
     runs-on: ubuntu-latest
