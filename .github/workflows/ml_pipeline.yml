@@ -20,6 +20,14 @@ jobs:
 
       - run: python train.py
 
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: model-artifacts
+          path: |
+            model.pkl
+            metrics.json
+
   report:
     needs: train
     runs-on: ubuntu-latest
